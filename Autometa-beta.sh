@@ -505,7 +505,7 @@ echo exit >>$company/smtp-user-enum.rc
 echo -e "\e[1;32m----------------------------------------------------------\e[00m"
 echo "Created SMTP resource file under $company/"
 echo -e "\e[1;32m----------------------------------------------------------\e[00m"
-echo "Running SNMP Checks"
+echo "Running SMTP Checks"
 msfconsole -q -r $company/smtp-user-enum.rc
 home1
 }
