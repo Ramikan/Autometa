@@ -15,7 +15,8 @@ echo "Tool Used For Automating Metasploit"
 echo "Version = beta"
 echo "By Ramikan"
 echo -e "\e[1;32m----------------------------------------------------------\e[00m"
-read -r -p "Please Enter 1 for New Project or 2 for Current Project: " a
+read -r -p "Please Enter 1 for New Project or 2 for Old Project: " a
+echo -e "\e[1;32m----------------------------------------------------------\e[00m"
 if [ "$a" == 1 ]; then
 startup1
 elif [ "$a" == 2 ]; then
